@@ -92,6 +92,7 @@ function fetchForModal(id) {
 function closeModal(){
   document.getElementById("modal").style.display = 'none';
   document.getElementById("foodDisplay").style.opacity = 1;
+  document.getElementById("details").innerHTML = "";
 }
  // console.log(meals);
     // let mealThumb = meal.meals[0].strMealThumb;
